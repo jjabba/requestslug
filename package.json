@@ -1,0 +1,20 @@
+{
+  "name": "requestslug",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node requestslug.js"
+  },
+  "description": "Inspect your http(s) request.",
+  "author": "Karl Berggren <kalle@jjabba.com>",
+  "dependencies": {
+    "express": ">= 4.11.0",
+    "underscore": ">= 1.7.0",
+    "q": "= 1.0.1",
+    "q-io": "= 1.11.5",
+    "concat-stream": ">= 1.4.7"
+  },
+  "engines": {
+    "node": ">= 0.10.30",
+    "npm": ">= 2.1.6"
+  }
+}
